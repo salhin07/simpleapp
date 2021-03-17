@@ -1,0 +1,35 @@
+execute git command
+Id CommandLine
+  -- -----------
+   1 git init
+   2 dvc init
+   3 git commit -m "fist"
+   4 git branch -M main
+   5 git remote add origin https://github.com/salhin/app.git
+   6 git push -u origin main
+   7 mkdir data_given
+   8 git init
+   9 dvc init
+  10 dvc add .\winequality.csv
+  11 git add .
+  12 git commit -m "simpleapp"
+  13 git remote add origin https://github.com/salhin07/simpleapp.git
+  14 git remove orgin
+  15 git remote remove orgin
+  16 git remote remove origin
+  17 git remote add origin https://github.com/salhin07/simpleapp.git
+  18 git branch -M main
+  19 git push origin main
+  20 git commit -m "simpleapp"
+  21 git add .
+  22 git commit -m "simpleapp"
+  23 git push origin main
+  24 touch src/get_data.py
+  25 touch get_data.py
+  26 git add .
+  27 git commit -m "simpleapp"
+  28 git push origin main
+  29 touch src/get_data.py
+  30 python src/get_data.py
+  31 python src/get_data.py
+  32 python src/get_data.py
