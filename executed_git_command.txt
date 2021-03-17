@@ -1,5 +1,4 @@
-execute git command
-Id CommandLine
+  Id CommandLine
   -- -----------
    1 git init
    2 dvc init
@@ -33,3 +32,17 @@ Id CommandLine
   30 python src/get_data.py
   31 python src/get_data.py
   32 python src/get_data.py
+  33 history
+  34 python src/load_data.py
+  35 python src/load_data.py
+  36 python dvc.yaml
+  37 dvc repo
+  38 dvc repro
+  39 dvc repro
+  40 dvc repro
+  41 dvc repro
+  42 dvc repro
+  43 dvc repro
+  44 git add .
+  45 git commit -m "simpleapp"
+  46 git push origin main
